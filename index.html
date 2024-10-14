@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>klases mokyniai</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Klasės mokiniu vardai</th>
+                <th>Pomėgiai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Augustinas</td>
+                <td>Boksas</td>
+            </tr>
+            <tr>
+                <td>Kasparas</td>
+                <td>Kompiuteriniai žaidimai</td>
+            </tr>
+            <tr>
+                <td>Dovydas</td>
+                <td>Žudyti negrus</td>
+            </tr>
+            <tr>
+                <td>Mantas</td>
+                <td>Krepšinis</td>
+            </tr>
+            <tr>
+                <td>Povilas</td>
+                <td>Važinėti dviračių</td>
+            </tr>
+            <tr>
+                <td>Ignas</td>
+                <td rowspan="4">Programavimas</td>
+            </tr>
+            <tr>
+                <td>Eimantas</td>
+            </tr>
+            <tr>
+                <td>Imantas</td>
+            </tr>
+            <tr>
+                <td>Adrijus</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="" method="post">
+        <div>
+            <label for="vardas">Vardas</label>
+            <input 
+                type="text" 
+                id="vardas" 
+                name="vardas"
+                placeholder="Įvesk varda"
+                required
+                >
+        </div>
+        <div>
+            <label for="vardas">Slaptažodis</label>
+            <input 
+                type="password" 
+                id="password" 
+                name="password"
+                placeholder="Įvesk Slaptažodi"
+                required
+                >
+        </div>
+        <div>
+            <label for="vardas">El. pasta</label>
+            <input 
+                type="email" 
+                id="email" 
+                name="email"
+                placeholder="Įvesk el. pasta"
+                required
+                >
+        </div>
+        <div>
+            <label for="aaa"> Pomegiai</label>
+            <select name="" id="">
+                <option value="">Pasirink Pomėgi</option>
+                <option value="1">Programavimas</option>
+                <option value="2">Krepšinis</option>
+                <option value="3">Kompiuteriniai žaidimai</option>
+                <option value="4">Važinėti dviračių</option>
+                <option value="5">Žudyti negrus</option>
+                <option value="6">Boksas</option>
+            </select>
+        </div>
+
+        <button type="submit">Pateikti</button>
+    </form>
+</body>
+</html>
